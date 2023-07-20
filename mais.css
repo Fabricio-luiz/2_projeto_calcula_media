@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header{
+    display: flex; /*para que os elementos fiquem um ao lado do outro*/
+    align-items: center; /*para que os elementos fiquem centralizados na vertical*/
+    margin-bottom: 40px;
+} 
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 640px; /*area maxima*/
+    width: 100%;
+    justify-content: space-between; /*para distribuir o espaçamento entre os itens*/
+    margin-bottom: 56px;
+}
+
+form input{
+    background-color: #fff;
+    font-size: 26px;
+    border: none; /*remove todas as bordas*/
+    border-bottom: 2px solid #000; /*borda inferior com 2 px na cor preta*/
+    padding: 8px; /*espaçamento*/
+    border-radius: 5px; /*cantos arredondados*/
+}
+
+form button{
+    background-color: #009432; /*fundo do botão*/
+    color: #fff; /*cor da fonte*/
+    font-size: 24px; /*tamanho da fonte*/
+    font-weight: bold; /*peso da fonte*/
+    border: none; /*borda dotão botão, removida*/
+    cursor: pointer; /* tipo de cursor - icone (mãozinha)*/
+    padding: 8px; /*espaçamento*/
+    border-radius: 5px; /*cantos arredondados*/
+}
+
+table{
+    width: 100%; /*largura da tabela*/
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td{
+    padding: 16px 0; /*espaçamento na parte superior e inferior, laterais 0*/
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.2); /*0.5 = Alfa -> define transparencia*/
+}
+
+table td img{
+    height: 30px;
+}
+
+.resultado{
+    padding: 8px; /*espaçamento*/
+    font-weight: bold; /*fonte em negrito*/
+    color: #fff; /*cor branca*/
+    background-color: #000; /*cor de fundo*/
+    border-radius: 3px; /*borda arredondada*/
+}
+
+.aprovado{
+    background-color: #009432;
+}
+
+.reprovado{
+    background-color: #c01515;
+}
